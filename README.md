@@ -142,7 +142,7 @@ res$dem
 
 ## Notes and limitations
 
-- This script is aimed at small to medium spatial extents; for large areas, consider tiling and caching strategies.
+- This script is aimed at small to medium spatial extents (below 1°X 1°); for large areas, consider tiling and caching strategies (which is not yet implemented).
 - The Process API and DEM access are subject to CDSE/Sentinel Hub quotas and terms of use; monitor your usage.
 - Elevation extraction returns `NA` where:
     - the original `move2` record has no geometry, or
